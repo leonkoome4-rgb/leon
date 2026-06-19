@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <rect width="100%" height="100%" fill="#071021" />
+  <g fill="#9aa4b2" font-family="Inter, Arial" font-size="28" font-weight="700">
+    <text x="60" y="110">Hospital 1 — Demo</text>
+  </g>
+  <g fill="#00e5ff" opacity="0.06">
+    <rect x="60" y="160" width="480" height="220" rx="12" />
+    <rect x="580" y="160" width="480" height="220" rx="12" />
+  </g>
+  <g fill="#9aa4b2" font-family="Inter, Arial" font-size="16">
+    <text x="60" y="420">Appointment management, patient records, and demo workflows.</text>
+  </g>
+</svg>

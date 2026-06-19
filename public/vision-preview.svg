@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="a" x1="0" x2="1">
+      <stop offset="0" stop-color="#00e5ff" />
+      <stop offset="1" stop-color="#6c5ce7" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#06070a" />
+  <g fill="url(#a)" opacity="0.08">
+    <rect x="40" y="40" width="1120" height="620" rx="18" />
+  </g>
+  <g fill="#fff" opacity="0.95" font-family="Inter, Arial" font-size="34" font-weight="700">
+    <text x="60" y="110">Vision X — Play Hub</text>
+  </g>
+  <g fill="#9aa4b2" font-family="Inter, Arial" font-size="18">
+    <text x="60" y="150">Community hub for game discovery, social features, and live updates.</text>
+  </g>
+  <g transform="translate(60,200)" fill-opacity="0.06">
+    <rect x="0" y="0" width="320" height="180" rx="12" fill="#00e5ff" />
+    <rect x="340" y="0" width="320" height="180" rx="12" fill="#6c5ce7" />
+    <rect x="680" y="0" width="420" height="180" rx="12" fill="#00e5ff" />
+  </g>
+</svg>
