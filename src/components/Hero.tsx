@@ -22,7 +22,7 @@ export default function Hero() {
           </motion.span>
         </h1>
 
-        <p className="hero-sub">I design and build high-end frontend experiences — interactive 3D, motion-led UI, and production-ready design systems.</p>
+        <p className="hero-sub">I design and build high-end frontend experiences — interactive website, motion-led UI, and production-ready design systems.</p>
 
         <div className="hero-ctas">
           <a href="#projects" className="btn btn-primary">View Work</a>

@@ -55,14 +55,20 @@ export default function Projects() {
               ))}
             </div>
 
-            <div style={{ display: 'flex', gap: 8 }}>
-              {p.url ? (
-                <a className="btn btn-primary" href={p.url} target="_blank" rel="noreferrer noopener">Live</a>
-              ) : (
-                <a className="btn btn-primary" href="#">Live</a>
-              )}
-              <a className="btn btn-ghost" href="#">Code</a>
-            </div>
+            {/* Live demo embed (may be blocked by X-Frame-Options on external sites). Fallback: open in new tab. */}
+            {p.url && (
+              <div style={{ marginTop: 8 }}>
+                <div style={{ marginBottom: 8, color: 'var(--muted)', fontSize: 13 }}>Live demo (embedded). If blank, click "Open live demo".</div>
+                <div style={{ position: 'relative', paddingTop: '56.25%', borderRadius: 10, overflow: 'hidden' }}>
+                  <iframe className="demo-frame" src={p.url} title={`${p.title} live demo`} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 'none' }} />
+                </div>
+
+                <div style={{ display: 'flex', gap: 8, marginTop: 10 }}>
+                  <a className="btn btn-primary" href={p.url} target="_blank" rel="noreferrer noopener">Open live demo</a>
+                  <a className="btn btn-ghost" href="#">View code</a>
+                </div>
+              </div>
+            )}
           </motion.article>
         ))}
       </div>

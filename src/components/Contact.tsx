@@ -20,7 +20,7 @@ export default function Contact() {
 
         <div className="glass-card">
           <h3 style={{ marginTop: 0 }}>Phone</h3>
-          <a href="tel:+44142237975" style={{ color: 'var(--neon)' }}>+44 1422 37975</a>
+          <a href="tel:+44142237975" style={{ color: 'var(--neon)' }}>+254 142237975</a>
         </div>
 
         <div className="glass-card">
