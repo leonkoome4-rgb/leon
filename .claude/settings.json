@@ -1,0 +1,47 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(lsof -i :3000 -sTCP:LISTEN)",
+      "Bash(lsof -i :3001 -sTCP:LISTEN)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"try{require.resolve\\('playwright'\\)}catch\\(e\\){console.log\\('not found locally'\\)}\")",
+      "Bash(npx --yes playwright install chromium --with-deps)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node /tmp/verify-leon.mjs)",
+      "Bash(node /tmp/verify-scroll.mjs)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(rm -f /tmp/verify-leon.mjs /tmp/verify-scroll.mjs /tmp/leon-*.png)",
+      "Bash(node -e \"console.log\\('playwright ready'\\)\")",
+      "Bash(node verify2.mjs)",
+      "Bash(node verify-mobile.mjs)",
+      "Bash(curl -s -o /tmp/curl-check.html -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(rm -f /tmp/verify*.mjs /tmp/v2-*.png /tmp/v3-*.png /tmp/m-*.png /tmp/final-*.png /tmp/curl-check.html; echo done)",
+      "Bash(node make-resume-pdf.mjs)",
+      "Bash(python3 -c ' *)",
+      "Bash(pdfinfo /tmp/Leon-Koome-Resume.pdf)",
+      "Bash(node -e ' *)",
+      "Bash(node verify-links.mjs)",
+      "Bash(pkill -f \"next dev\" 2>/dev/null; sleep 1; cd /Users/leonkoome4gmail.com/leon && rm -rf .next && npm run build 2>&1 | tail -20 && echo \"--- cleaning temp files ---\" && rm -f /tmp/verify*.mjs /tmp/make-*.mjs /tmp/og.html /tmp/og.png /tmp/resume.html /tmp/Leon-Koome-Resume.pdf /tmp/check-*.png /tmp/curl-check.html)",
+      "Bash(cat >> *)",
+      "WebFetch(domain:www.callmebot.com)",
+      "Bash(lsof -ti:3000)",
+      "Bash(xargs kill -9)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000 --max-time 5)",
+      "Bash(curl -s -X POST http://localhost:3000/api/contact -H 'Content-Type: application/json' -d '{\"name\":\"Test User\",\"email\":\"test@example.com\",\"message\":\"Verifying email + WhatsApp notifications work end to end.\"}' -w '\\\\nHTTP_STATUS:%{http_code}\\\\n')",
+      "Bash(kill %1)",
+      "Bash(git add *)",
+      "Bash(git checkout *)"
+    ],
+    "additionalDirectories": [
+      "/tmp",
+      "/private/tmp",
+      "/Users/leonkoome4gmail.com/leon"
+    ]
+  }
+}

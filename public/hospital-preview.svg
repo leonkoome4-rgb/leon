@@ -1,13 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
-  <rect width="100%" height="100%" fill="#071021" />
-  <g fill="#9aa4b2" font-family="Inter, Arial" font-size="28" font-weight="700">
-    <text x="60" y="110">Hospital 1 — Demo</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5a3c" />
+      <stop offset="0.5" stop-color="#ff2d8a" />
+      <stop offset="1" stop-color="#6f5bff" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#0f0d14" />
+  <g fill="url(#b)" opacity="0.1">
+    <rect x="40" y="40" width="1120" height="595" rx="20" />
   </g>
-  <g fill="#00e5ff" opacity="0.06">
-    <rect x="60" y="160" width="480" height="220" rx="12" />
-    <rect x="580" y="160" width="480" height="220" rx="12" />
+  <g fill="#ffffff" opacity="0.95" font-family="Arial, sans-serif" font-size="40" font-weight="700">
+    <text x="80" y="160">Hospital 1</text>
   </g>
-  <g fill="#9aa4b2" font-family="Inter, Arial" font-size="16">
-    <text x="60" y="420">Appointment management, patient records, and demo workflows.</text>
+  <g fill="#a39fb0" font-family="Arial, sans-serif" font-size="20">
+    <text x="80" y="205">Appointment booking &amp; patient management system.</text>
+  </g>
+  <g opacity="0.9">
+    <rect x="80" y="270" width="490" height="220" rx="14" fill="url(#b)" fill-opacity="0.16" stroke="#ffffff" stroke-opacity="0.08" />
+    <rect x="600" y="270" width="440" height="220" rx="14" fill="url(#b)" fill-opacity="0.1" stroke="#ffffff" stroke-opacity="0.08" />
+  </g>
+  <g fill="#a39fb0" font-family="Arial, sans-serif" font-size="16">
+    <text x="100" y="400">Schedule</text>
+    <text x="620" y="400">Patient records</text>
   </g>
 </svg>
