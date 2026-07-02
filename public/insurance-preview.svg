@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="ins" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#059669" />
+      <stop offset="0.5" stop-color="#0d9488" />
+      <stop offset="1" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#061412" />
+  <rect x="40" y="40" width="1120" height="595" rx="20" fill="url(#ins)" fill-opacity="0.08" />
+  <!-- Navbar -->
+  <rect x="40" y="40" width="1120" height="56" rx="10" fill="#059669" fill-opacity="0.12" />
+  <circle cx="80" cy="68" r="14" fill="#059669" fill-opacity="0.6" />
+  <rect x="104" y="61" width="120" height="14" rx="4" fill="#fff" fill-opacity="0.7" />
+  <rect x="920" y="57" width="80" height="22" rx="11" fill="#059669" fill-opacity="0.7" />
+  <!-- Shield icon -->
+  <path d="M1060 140 L1100 158 L1100 200 Q1100 230 1060 250 Q1020 230 1020 200 L1020 158 Z" fill="url(#ins)" fill-opacity="0.25" stroke="#059669" stroke-opacity="0.5" stroke-width="2" />
+  <text x="1060" y="205" font-family="Arial, sans-serif" font-size="28" fill="#34d399" text-anchor="middle" font-weight="700">✓</text>
+  <!-- Hero text -->
+  <text x="80" y="175" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff" opacity="0.95">Super Metro</text>
+  <text x="80" y="225" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#34d399">Insurance Agency</text>
+  <text x="80" y="270" font-family="Arial, sans-serif" font-size="17" fill="#6ba89a">IRA Licensed · 9 Insurance Classes · M-Pesa Payments · Instant Quotes</text>
+  <!-- Stat chips -->
+  <rect x="80" y="295" width="120" height="36" rx="18" fill="#059669" fill-opacity="0.2" stroke="#059669" stroke-opacity="0.4" stroke-width="1" />
+  <text x="140" y="318" font-family="Arial, sans-serif" font-size="14" fill="#6ee7b7" text-anchor="middle">9 Classes</text>
+  <rect x="212" y="295" width="140" height="36" rx="18" fill="#0d9488" fill-opacity="0.2" stroke="#0d9488" stroke-opacity="0.4" stroke-width="1" />
+  <text x="282" y="318" font-family="Arial, sans-serif" font-size="14" fill="#99f6e4" text-anchor="middle">15+ Partners</text>
+  <rect x="364" y="295" width="150" height="36" rx="18" fill="#0284c7" fill-opacity="0.2" stroke="#0284c7" stroke-opacity="0.4" stroke-width="1" />
+  <text x="439" y="318" font-family="Arial, sans-serif" font-size="14" fill="#7dd3fc" text-anchor="middle">M-Pesa STK Push</text>
+  <!-- Quote wizard steps -->
+  <rect x="80" y="360" width="680" height="220" rx="14" fill="#059669" fill-opacity="0.07" stroke="#059669" stroke-opacity="0.2" stroke-width="1" />
+  <text x="100" y="392" font-family="Arial, sans-serif" font-size="14" fill="#6ba89a">Motor Quote Wizard — 6 steps</text>
+  <rect x="100" y="405" width="80" height="60" rx="8" fill="#059669" fill-opacity="0.25" />
+  <rect x="192" y="405" width="80" height="60" rx="8" fill="#0d9488" fill-opacity="0.2" />
+  <rect x="284" y="405" width="80" height="60" rx="8" fill="#0d9488" fill-opacity="0.15" />
+  <rect x="376" y="405" width="80" height="60" rx="8" fill="#0284c7" fill-opacity="0.12" />
+  <rect x="468" y="405" width="80" height="60" rx="8" fill="#0284c7" fill-opacity="0.1" />
+  <rect x="560" y="405" width="80" height="60" rx="8" fill="#0ea5e9" fill-opacity="0.08" />
+  <text x="140" y="441" font-family="Arial, sans-serif" font-size="11" fill="#6ee7b7" text-anchor="middle">Cover</text>
+  <text x="232" y="441" font-family="Arial, sans-serif" font-size="11" fill="#99f6e4" text-anchor="middle">Vehicle</text>
+  <text x="324" y="441" font-family="Arial, sans-serif" font-size="11" fill="#99f6e4" text-anchor="middle">Driver</text>
+  <text x="416" y="441" font-family="Arial, sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle">Usage</text>
+  <text x="508" y="441" font-family="Arial, sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle">Add-ons</text>
+  <text x="600" y="441" font-family="Arial, sans-serif" font-size="11" fill="#93c5fd" text-anchor="middle">Result</text>
+  <!-- Insurance cards grid -->
+  <rect x="80" y="490" width="150" height="70" rx="10" fill="#059669" fill-opacity="0.12" stroke="#059669" stroke-opacity="0.2" stroke-width="1" />
+  <rect x="244" y="490" width="150" height="70" rx="10" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-opacity="0.2" stroke-width="1" />
+  <rect x="408" y="490" width="150" height="70" rx="10" fill="#0284c7" fill-opacity="0.12" stroke="#0284c7" stroke-opacity="0.2" stroke-width="1" />
+  <rect x="572" y="490" width="150" height="70" rx="10" fill="#059669" fill-opacity="0.1" stroke="#059669" stroke-opacity="0.15" stroke-width="1" />
+  <text x="155" y="530" font-family="Arial, sans-serif" font-size="13" fill="#6ee7b7" text-anchor="middle">Motor</text>
+  <text x="319" y="530" font-family="Arial, sans-serif" font-size="13" fill="#99f6e4" text-anchor="middle">Health</text>
+  <text x="483" y="530" font-family="Arial, sans-serif" font-size="13" fill="#7dd3fc" text-anchor="middle">Life & Savings</text>
+  <text x="647" y="530" font-family="Arial, sans-serif" font-size="13" fill="#6ee7b7" text-anchor="middle">Travel</text>
+  <!-- Right panel -->
+  <rect x="800" y="360" width="320" height="220" rx="14" fill="url(#ins)" fill-opacity="0.1" stroke="#059669" stroke-opacity="0.2" stroke-width="1" />
+  <text x="960" y="400" font-family="Arial, sans-serif" font-size="14" fill="#6ba89a" text-anchor="middle">Premium Estimate</text>
+  <text x="960" y="450" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#34d399" text-anchor="middle">KSh 12,400</text>
+  <text x="960" y="480" font-family="Arial, sans-serif" font-size="13" fill="#6ba89a" text-anchor="middle">Comprehensive · 1 year</text>
+  <rect x="840" y="510" width="240" height="40" rx="20" fill="#059669" fill-opacity="0.5" />
+  <text x="960" y="535" font-family="Arial, sans-serif" font-size="15" fill="#ffffff" text-anchor="middle">Pay via M-Pesa →</text>
+</svg>

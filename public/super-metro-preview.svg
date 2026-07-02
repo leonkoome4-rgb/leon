@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0ea5e9" />
+      <stop offset="0.5" stop-color="#2563eb" />
+      <stop offset="1" stop-color="#1e3a8a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#070d1a" />
+  <rect x="40" y="40" width="1120" height="595" rx="20" fill="url(#sm)" fill-opacity="0.08" />
+  <!-- Navbar bar -->
+  <rect x="40" y="40" width="1120" height="56" rx="10" fill="#0ea5e9" fill-opacity="0.12" />
+  <circle cx="80" cy="68" r="14" fill="#0ea5e9" fill-opacity="0.5" />
+  <rect x="104" y="61" width="80" height="14" rx="4" fill="#fff" fill-opacity="0.7" />
+  <rect x="900" y="57" width="60" height="22" rx="11" fill="#0ea5e9" fill-opacity="0.7" />
+  <rect x="970" y="57" width="60" height="22" rx="11" fill="#2563eb" fill-opacity="0.5" />
+  <!-- Hero text -->
+  <text x="80" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff" opacity="0.95">Super Metro</text>
+  <text x="80" y="230" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0ea5e9">Nairobi's Largest Bus SACCO</text>
+  <text x="80" y="275" font-family="Arial, sans-serif" font-size="18" fill="#7fb3d3">500+ vehicles · Electric fleet · Airport shuttle · Route maps</text>
+  <!-- Stat chips -->
+  <rect x="80" y="300" width="130" height="38" rx="19" fill="#0ea5e9" fill-opacity="0.18" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="1" />
+  <text x="145" y="324" font-family="Arial, sans-serif" font-size="15" fill="#7fd4f8" text-anchor="middle">500+ Vehicles</text>
+  <rect x="222" y="300" width="130" height="38" rx="19" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" stroke-opacity="0.4" stroke-width="1" />
+  <text x="287" y="324" font-family="Arial, sans-serif" font-size="15" fill="#93c5fd" text-anchor="middle">BasiGo EV Fleet</text>
+  <rect x="364" y="300" width="130" height="38" rx="19" fill="#1e3a8a" fill-opacity="0.3" stroke="#2563eb" stroke-opacity="0.4" stroke-width="1" />
+  <text x="429" y="324" font-family="Arial, sans-serif" font-size="15" fill="#93c5fd" text-anchor="middle">IRA Licensed</text>
+  <!-- Route map abstract -->
+  <circle cx="780" cy="220" r="8" fill="#0ea5e9" />
+  <circle cx="880" cy="180" r="6" fill="#2563eb" />
+  <circle cx="960" cy="240" r="8" fill="#0ea5e9" />
+  <circle cx="860" cy="300" r="6" fill="#2563eb" />
+  <circle cx="1060" cy="200" r="5" fill="#60a5fa" />
+  <line x1="780" y1="220" x2="880" y2="180" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="2" />
+  <line x1="880" y1="180" x2="960" y2="240" stroke="#0ea5e9" stroke-opacity="0.4" stroke-width="2" />
+  <line x1="960" y1="240" x2="860" y2="300" stroke="#2563eb" stroke-opacity="0.4" stroke-width="2" />
+  <line x1="880" y1="180" x2="1060" y2="200" stroke="#2563eb" stroke-opacity="0.3" stroke-width="2" />
+  <!-- Cards row -->
+  <rect x="80" y="380" width="320" height="180" rx="14" fill="#0ea5e9" fill-opacity="0.1" stroke="#0ea5e9" stroke-opacity="0.15" stroke-width="1" />
+  <rect x="420" y="380" width="320" height="180" rx="14" fill="#2563eb" fill-opacity="0.1" stroke="#2563eb" stroke-opacity="0.15" stroke-width="1" />
+  <rect x="760" y="380" width="320" height="180" rx="14" fill="#1e3a8a" fill-opacity="0.15" stroke="#2563eb" stroke-opacity="0.15" stroke-width="1" />
+  <text x="240" y="480" font-family="Arial, sans-serif" font-size="15" fill="#7fb3d3" text-anchor="middle">Route Maps</text>
+  <text x="580" y="480" font-family="Arial, sans-serif" font-size="15" fill="#93c5fd" text-anchor="middle">Book Shuttle</text>
+  <text x="920" y="480" font-family="Arial, sans-serif" font-size="15" fill="#93c5fd" text-anchor="middle">Report Incident</text>
+</svg>
